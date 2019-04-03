@@ -1,7 +1,6 @@
 # Ensure matches on chr:pos, a1, a2 of dose/info with the snp file
 # Jennifer N Nguyen
 
-source("/h4/t1/users/jn9ur/software/import.R")
 library(scriptR)
 scriptrR::lib()
 
