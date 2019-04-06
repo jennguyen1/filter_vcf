@@ -6,12 +6,12 @@ scriptrR::lib()
 
 # command line args
 option_list <- list(
-	make_option("--prefix"),
-	make_option("--vcf_dose"),
-	make_option("--vcf_info"),
-	make_option("--snp_file_name"),
-	make_option("--output_dose"),
-	make_option("--output_info")
+	optparse::make_option("--prefix"),
+	optparse::make_option("--vcf_dose"),
+	optparse::make_option("--vcf_info"),
+	optparse::make_option("--snp_file_name"),
+	optparse::make_option("--output_dose"),
+	optparse::make_option("--output_info")
 )
 
 opt <- parse_args(optparse::OptionParser(option_list=option_list))
