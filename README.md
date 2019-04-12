@@ -5,9 +5,11 @@ Extracts SNPs from VCF filese and combines into an extracted list. Can be useful
 * extract_snps.py extracts a list of SNPs from VCF files
   * wrapper for <tabix -p vcf -f {in_file} {c}:{p}-{p}>
 * combine_vcf.py combines VCF files
+* make_dose.py combines VCF files and makes dosages
 
 For more information on running the program, type the command
 ```
 python extract_snps.py -h
 python combine_vcf.py -h 
+python make_dose.py -h
 ```
